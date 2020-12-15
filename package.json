@@ -8,7 +8,8 @@
     "nodejs-hot-reload": "^0.1.2"
   },
   "scripts": {
-    "test": "help"
+    "test": "help",
+    "start": "node index.js"
   },
   "devDependencies": {},
   "repository": {
