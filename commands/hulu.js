@@ -25,7 +25,7 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Hulu Account',`\n\`${account}\``)
+            .addField('🏓 Account',`\n\`${account}\``)
             .addField('🔗 Links', '[Support Server](https://discord.gg/)')
             .setThumbnail('https://i.imgur.com/GwgkSC4.png')
             .setColor("RANDOM")
