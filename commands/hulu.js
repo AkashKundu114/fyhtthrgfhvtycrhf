@@ -25,10 +25,10 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Hulu Accoun',`\n**${account}**`)
+            .addField('Hulu Account',`\n\`${account}\``)
+            .addField('🔗 Links', '[Support Server](https://discord.gg/)')
             .setThumbnail('https://i.imgur.com/GwgkSC4.png')
-            .setColor("R")
-            .setFooter('By Bermuda')
+            .setColor("RANDOM")
             .setTimestamp();
 
             msg.author.send(embed);
