@@ -25,9 +25,9 @@ module.exports.run = async (client, msg, args, config) => {
             });
 
             let embed = new Discord.RichEmbed()
-            .addField('Hulu account',`\n**${account}**`)
+            .addField('Hulu Accoun',`\n**${account}**`)
             .setThumbnail('https://i.imgur.com/GwgkSC4.png')
-            .setColor("#0x9700f5")
+            .setColor("R")
             .setFooter('By Bermuda')
             .setTimestamp();
 
