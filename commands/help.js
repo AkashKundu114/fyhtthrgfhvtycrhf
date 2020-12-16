@@ -19,8 +19,8 @@ exports.run = async (client, message) => {
     .addField("Steam", "`5000`", true)
     .addField("VBucks", "`5000`", true)
     .addField("Xbox", "`5000`", true)
-    .setThumbnail("")
-    .setFooter("")
+    .setThumbnail("https://cdn.discordapp.com/avatars/758266836248166410/a_d04a49bcde3e7a605c916ada1823a1d3.gif?size=256&f=.gif")
+    .setFooter("Helix Netwrok")
     .setTimestamp();
   message.channel.send(embed);
 };

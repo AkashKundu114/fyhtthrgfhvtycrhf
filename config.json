@@ -1,5 +1,6 @@
 {
     "TOKEN": "Nzg4NjQ4NDI2NDE3ODE1NTUy.X9mkFQ.KUm6gigO8MrkyttM7ZFvhPJhgHM" ,
     "PREFIX": "=",
-    "COOLDOWN": "0.01"
+    "COOLDOWN": "0.01",
+    "FOOTER": "Helix Network"
 }

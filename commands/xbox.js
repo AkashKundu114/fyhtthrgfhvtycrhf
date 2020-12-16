@@ -62,6 +62,6 @@ module.exports.run = async (client, msg, args, config) => {
 };
 
 module.exports.help = {
-  name: `steam`,
+  name: `xbox`,
   description: `description`
 };
